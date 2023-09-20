@@ -11,7 +11,7 @@ console.log('elemento não encontrado ou seletor inválido');
 }
 
 }
-  const listaDeTeclas = document.querySelectorAll(seletorAudio);
+  const listaDeTeclas = document.querySelectorAll('.tecla');
 
 //para
   for (let contador = 0; contador < listaDeTeclas.length; contador++) {
