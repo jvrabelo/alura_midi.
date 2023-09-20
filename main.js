@@ -24,4 +24,15 @@ console.log('elemento não encontrado ou seletor inválido');
         tocaSom (idAudio0;
     }
 
-    {
+ tecla.onkeydown = function () { 
+
+  if(evento.code === 'space' || evento.code === 'enter') {
+   tecla.classlist.add('ativa');
+  }
+
+ }
+   tecla.onkeyup = function() {
+    tecla.classList.remove('ativa');
+   }
+
+  }
